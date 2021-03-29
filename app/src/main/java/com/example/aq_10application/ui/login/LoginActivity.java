@@ -1,5 +1,6 @@
 package com.example.aq_10application.ui.login;
 
+import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
@@ -9,14 +10,25 @@ import android.util.Log;
 
 public class LoginActivity extends AppCompatActivity {
 
+
     public void startButton(View view){
-        Log.i("this", "startButton: This button works");
+        //Log.i("this", "startButton: This button works");
+        Intent intent = new Intent(this, QuestionOne.class);
+        startActivity(intent);
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-     }
+    }
+
+    /** Called when the user taps the Send button */
+    public void sendMessage(View view) {
+        // Do something in response to button
+    }
+
+
+
 
 }
