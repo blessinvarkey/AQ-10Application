@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/login"
-    tools:context=".ui.login.QuestionOne">
+    tools:context=".ui.login.QuestionNine">
 
     <RadioButton
         android:id="@+id/radioButton"
@@ -58,7 +58,7 @@
         android:layout_marginTop="108dp"
         android:padding="20dp"
         android:paddingBottom="10dp"
-        android:text="Q 1. Student often notices small sounds when others do not. / छात्र अक्सर छोटे आवाज़/ध्वनियों को ध्यान/ नोटिस करते हैं, जब अन्य नहीं करते हैं।"
+        android:text="  Q 9. Student/ward finds it easy to work out what someone is thinking or feeling just by looking at their face | छात्र / वार्ड को यह पता लगाना आसान है कि कोई (व्यक्ति) क्या सोच रहा है या क्या महसूस कर रहा है|"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -66,14 +66,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="48dp"
         android:text="Next"
-        android:onClick="nextButtonTwo"
+        android:onClick="nextButtonNine"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
 

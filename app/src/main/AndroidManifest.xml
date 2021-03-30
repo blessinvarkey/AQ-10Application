@@ -9,7 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AQ10Application">
-        <activity android:name=".ui.login.QuestionOne"></activity>
+        <activity android:name=".ui.login.Result"></activity>
+        <activity android:name=".ui.login.QuestionTen" />
+        <activity android:name=".ui.login.QuestionNine" />
+        <activity android:name=".ui.login.QuestionEight" />
+        <activity android:name=".ui.login.QuestionSeven" />
+        <activity
+            android:name=".ui.login.QuestionSix"
+            android:label="@string/title_activity_question_six"
+            android:theme="@style/Theme.AQ10Application.NoActionBar" />
+        <activity
+            android:name=".ui.login.QuestionFive"
+            android:label="@string/title_activity_question_five"
+            android:theme="@style/Theme.AQ10Application.NoActionBar" />
+        <activity android:name=".ui.login.QuestionFour" />
+        <activity android:name=".ui.login.QuestionThree" />
+        <activity android:name=".ui.login.QuestionTwo" />
+        <activity android:name=".ui.login.QuestionOne" />
         <activity
             android:name=".ui.login.LoginActivity"
             android:label="@string/app_name">

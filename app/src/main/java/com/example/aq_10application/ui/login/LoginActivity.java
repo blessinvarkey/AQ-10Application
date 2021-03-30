@@ -17,18 +17,18 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void nextButtonTwo(View view){
+        //Log.i("this", "startButton: This button works");
+        Intent intent = new Intent(this, QuestionTwo.class);
+        startActivity(intent);
+    }
+
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
     }
-
-    /** Called when the user taps the Send button */
-    public void sendMessage(View view) {
-        // Do something in response to button
-    }
-
-
 
 
 }
