@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/login"
-    tools:context=".ui.login.QuestionOne">
+    tools:context=".ui.login.QuestionFive">
 
     <RadioButton
         android:id="@+id/radioButton"
@@ -13,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="Definitely Agree/ निश्चित रूप से सहमत हैं"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/q1" />
@@ -24,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="4dp"
         android:text="Definitely Disagree/ निश्चित रूप से असहमत हैं"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
@@ -35,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="4dp"
         android:text="Slightly Disgaree/ थोड़ा असहमत"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
@@ -46,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="4dp"
         android:text="Slightly Agree/ थोड़ा सहमत"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton" />
@@ -55,10 +54,10 @@
         android:id="@+id/q1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="44dp"
         android:padding="20dp"
         android:paddingBottom="10dp"
-        android:text="Q 1. Student often notices small sounds when others do not. / छात्र अक्सर छोटे आवाज़/ध्वनियों को ध्यान/ नोटिस करते हैं, जब अन्य नहीं करते हैं।"
+        android:text="Q 5. The student/ward finds it easy to ‘read between the lines’ when someone is talking to them. (e.g. Rahul said that he would have gone to the party if he had time.. but if you read between the lines, I don't think she wanted to go anyway.' ) | जब कोई उनसे बात कर रहा हो, तो छात्र / वार्ड को लाइनों के बीच पढ़ना आसान लगता है। (जैसे राहुल ने कहा कि अगर उनके पास समय होता तो वह पार्टी में जाते। लेकिन अगर आप लाइनों के बीच पढ़ते हैं, तो मुझे नहीं लगता कि वह किसी भी तरह जाना चाहते थे।"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -71,11 +70,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="48dp"
-        android:text="Next"
+        android:layout_marginTop="4dp"
         android:onClick="nextButtonTwo"
+        android:text="Next"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
