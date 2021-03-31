@@ -4,24 +4,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
+
+import com.example.aq_10application.LoginTwo;
 import com.example.aq_10application.R;
-import android.util.Log;
 
 
 public class LoginActivity extends AppCompatActivity {
-
-
-    public void startButton(View view){
-        //Log.i("this", "startButton: This button works");
-        Intent intent = new Intent(this, QuestionOne.class);
-        startActivity(intent);
-    }
-
-    public void nextButtonTwo(View view){
-        //Log.i("this", "startButton: This button works");
-        Intent intent = new Intent(this, QuestionTwo.class);
-        startActivity(intent);
-    }
 
 
     @Override
@@ -29,6 +17,12 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
     }
+
+    public void startButton(View view){
+        Intent intent = new Intent(this, LoginTwo.class);
+        startActivity(intent);
+    }
+
 
 
 }
