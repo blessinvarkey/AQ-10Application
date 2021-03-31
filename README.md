@@ -2,4 +2,4 @@
 
 Mobile app for AQ-10 questionaire
 
-![Login](/images/Login.png)
+![Login](/images/login_lowrez.png)
