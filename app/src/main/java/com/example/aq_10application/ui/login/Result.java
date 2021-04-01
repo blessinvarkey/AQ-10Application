@@ -8,6 +8,7 @@ import com.example.aq_10application.R;
 
 public class Result extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

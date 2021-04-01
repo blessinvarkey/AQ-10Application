@@ -7,14 +7,15 @@
     android:background="@drawable/login"
     tools:context=".ui.login.QuestionEight">
 
+
     <RadioButton
         android:id="@+id/radioButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="16dp"
-        android:text="Definitely Agree/ निश्चित रूप से सहमत हैं"
+        android:layout_marginTop="8dp"
+        android:text="Many times a day दिन में कई बार"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/q1" />
 
@@ -24,8 +25,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="28dp"
-        android:text="Definitely Disagree/ निश्चित रूप से असहमत हैं"
+        android:layout_marginTop="8dp"
+        android:text="Less than once a week सप्ताह में एक बार से भी कम"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
 
@@ -35,8 +36,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="24dp"
-        android:text="Slightly Disgaree/ थोड़ा असहमत"
+        android:layout_marginTop="8dp"
+        android:text="A few times a week सप्ताह के कुछ बारं"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
 
@@ -46,10 +47,21 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="16dp"
-        android:text="Slightly Agree/ थोड़ा सहमत"
+        android:layout_marginTop="8dp"
+        android:text="A few times a day दिन में कुछ बारं"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:text=" Never कभी नही"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
 
     <TextView
         android:id="@+id/q1"
@@ -58,7 +70,7 @@
         android:layout_marginTop="108dp"
         android:padding="20dp"
         android:paddingBottom="10dp"
-        android:text="    Q 8. Student/ward likes to collect information about categories of things (e.g. types of car, types of bird, types of train, types of plant etc.) | छात्र / वार्ड चीजों की श्रेणियों के बारे में जानकारी एकत्र करना पसंद करते हैं। (जैसे कार के प्रकार, पक्षी के प्रकार, ट्रेन के प्रकार, पौधे के प्रकार आदि)"
+        android:text="Q 8. Student/ward likes to collect information about categories of things (e.g. types of car, types of bird, types of train, types of plant etc.) | छात्र / वार्ड चीजों की श्रेणियों के बारे में जानकारी एकत्र करना पसंद करते हैं। (जैसे कार के प्रकार, पक्षी के प्रकार, ट्रेन के प्रकार, पौधे के प्रकार आदि)"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -66,17 +78,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="8dp"
+        android:onClick="nextButtonEight"
         android:text="Next"
-        android:onClick="nextButtonTwo"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
-
+        app:layout_constraintTop_toBottomOf="@+id/radioButton5" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

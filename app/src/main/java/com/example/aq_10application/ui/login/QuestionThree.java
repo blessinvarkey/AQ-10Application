@@ -10,7 +10,7 @@ import com.example.aq_10application.R;
 
 public class QuestionThree extends AppCompatActivity {
 
-    public void nextButtonThree(View view){
+    public void buttonQThree(View view){
         Intent intent = new Intent(this, QuestionFour.class);
         startActivity(intent);
     }
