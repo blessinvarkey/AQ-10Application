@@ -10,16 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AQ10Application">
         <activity android:name=".ui.login.LoginViewModelFactory$QuestionSix"></activity>
-        <activity android:name=".ui.login.QuestionFive" />
+        <activity android:name=".ui.login.QuestionFive"
+            android:parentActivityName=".ui.login.QuestionFour"/>
         <activity android:name=".LoginTwo" />
         <activity android:name=".ui.login.Result" />
-        <activity android:name=".ui.login.QuestionTen" />
-        <activity android:name=".ui.login.QuestionNine" />
-        <activity android:name=".ui.login.QuestionEight" />
-        <activity android:name=".ui.login.QuestionSeven" />
-        <activity android:name=".ui.login.QuestionFour" />
-        <activity android:name=".ui.login.QuestionThree" />
-        <activity android:name=".ui.login.QuestionTwo" />
+        <activity android:name=".ui.login.QuestionTen"
+            android:parentActivityName=".ui.login.QuestionNine"/>
+        <activity android:name=".ui.login.QuestionNine"
+            android:parentActivityName=".ui.login.QuestionEight"/>
+        <activity android:name=".ui.login.QuestionEight"
+            android:parentActivityName=".ui.login.QuestionSeven"/>
+        <activity android:name=".ui.login.QuestionSeven"/>
+        <activity android:name=".ui.login.QuestionFour"
+            android:parentActivityName=".ui.login.QuestionThree"/>
+        <activity android:name=".ui.login.QuestionThree"
+            android:parentActivityName=".ui.login.QuestionTwo"
+            />
+        <activity android:name=".ui.login.QuestionTwo"
+            android:parentActivityName=".ui.login.QuestionOne"
+            />
         <activity android:name=".ui.login.QuestionOne" />
         <activity
             android:name=".ui.login.LoginActivity"

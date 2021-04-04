@@ -20,6 +20,9 @@ public class QuestionTwo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question_two);
+
+        getSupportActionBar().setTitle( "AQ-10: Question Two");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
 }
