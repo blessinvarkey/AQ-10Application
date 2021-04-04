@@ -18,5 +18,7 @@ public class QuestionFive extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question_five);
+        getSupportActionBar().setTitle("AQ-10: Question Five");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

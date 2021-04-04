@@ -19,5 +19,7 @@ public class QuestionThree extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question_three);
+        getSupportActionBar().setTitle("AQ-10: Question Three");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
