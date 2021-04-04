@@ -19,5 +19,7 @@ public class QuestionSeven extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question_seven);
+        getSupportActionBar().setTitle("AQ-10 Question Seven");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
