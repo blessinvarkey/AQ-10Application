@@ -15,32 +15,10 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="8dp"
-        android:text="Many times a day दिन में कई बार"
+        android:text="True"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/q1" />
 
-
-    <RadioButton
-        android:id="@+id/radioButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="4dp"
-        android:text="Less than once a week सप्ताह में एक बार से भी कम"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
-
-    <RadioButton
-        android:id="@+id/radioButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="4dp"
-        android:text="A few times a week सप्ताह के कुछ बारं"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
 
     <RadioButton
         android:id="@+id/radioButton2"
@@ -49,20 +27,9 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="4dp"
-        android:text="A few times a day दिन में कुछ बारं"
+        android:text="False"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton" />
-
-    <RadioButton
-        android:id="@+id/radioButton5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="8dp"
-        android:text=" Never कभी नही"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
 
     <TextView
         android:id="@+id/q1"
@@ -72,7 +39,7 @@
         android:padding="20dp"
         android:paddingBottom="10dp"
         android:text="
-Q 2. The student usually concentrates more on the whole picture, rather than the small details. /छात्र आमतौर पर छोटे चीज़ें के बजाय पूरी तस्वीर पर अधिक ध्यान देता है।"
+Q 2. When multiple Scrum Teams work together on the same product, each team should maintain a separate Product Backlog."
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -85,11 +52,11 @@ Q 2. The student usually concentrates more on the whole picture, rather than the
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="80dp"
         android:onClick="nextButtonTwo"
         android:text="Next"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton5" />
+        app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/login"
+    android:paddingRight="20dp"
     tools:context=".ui.login.QuestionOne">
 
     <RadioButton
@@ -14,7 +15,8 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="8dp"
-        android:text="Many times a day दिन में कई बार"
+        android:paddingRight="20dp"
+        android:text="Whenever a team member can accommodate more work."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/q1" />
 
@@ -26,7 +28,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="8dp"
-        android:text="Less than once a week सप्ताह में एक बार से भी कम"
+        android:text="At the Sprint Planning Event."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
 
@@ -37,7 +39,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="4dp"
-        android:text="A few times a week सप्ताह के कुछ बारं"
+        android:text="During the Daily Scrum."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
 
@@ -48,20 +50,10 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="12dp"
-        android:text="A few times a day दिन में कुछ बारं"
+        android:paddingRight="20dp"
+        android:text="Never. The entire Scrum Team is accountable for creating value every Sprint."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton" />
-
-    <RadioButton
-        android:id="@+id/radioButton5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="8dp"
-        android:text=" Never कभी नही"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
 
     <TextView
         android:id="@+id/q1"
@@ -70,7 +62,7 @@
         android:layout_marginTop="108dp"
         android:padding="20dp"
         android:paddingBottom="10dp"
-        android:text="Q.1. Student often notices small sounds when others do not. / छात्र अक्सर छोटे आवाज़/ध्वनियों को ध्यान/ नोटिस करते हैं, जब अन्य नहीं करते हैं।"
+        android:text="Q.1. When does a Developer become accountable for the value of a Product Backlog item selected for the Sprint?"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -83,11 +75,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="44dp"
         android:onClick="buttonQOne"
         android:text="Next"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton5" />
+        app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

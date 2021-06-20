@@ -69,12 +69,12 @@
         android:layout_marginTop="48dp"
         android:layout_marginBottom="314dp"
         android:padding="20dp"
-        android:text="The autism spectrum quotient (AQ-10) tool is recommended for use with adults with possible autism who do not have a moderate or severe learning disability. This may help identify whether an individual should be referred for a comprehensive autism assessment.These resources are implementation tools and should be used alongside the published guidance. The information does not supersede or replace the guidance itself."
+        android:text="Disclaimer Text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.358"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.204" />
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
