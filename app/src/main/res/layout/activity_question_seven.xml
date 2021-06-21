@@ -14,11 +14,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="12dp"
-        android:text="A month"
+        android:layout_marginTop="4dp"
+        android:text="Many times a day दिन में कई बार"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/q1" />
-
 
     <RadioButton
         android:id="@+id/radioButton4"
@@ -27,7 +26,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="12dp"
-        android:text="8 hours"
+        android:text="Less than once a week सप्ताह में एक बार से भी कम"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
 
@@ -37,8 +36,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="12dp"
-        android:text="4 hours"
+        android:layout_marginTop="8dp"
+        android:text="A few times a week सप्ताह के कुछ बारं"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
 
@@ -48,8 +47,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="12dp"
-        android:text="1 dayं"
+        android:layout_marginTop="4dp"
+        android:text="A few times a day दिन में कुछ बारं"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton" />
 
@@ -59,8 +58,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="8dp"
-        android:text=" As long as needed"
+        android:layout_marginTop="4dp"
+        android:text=" Never कभी नही"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
 
@@ -71,7 +70,7 @@
         android:layout_marginTop="108dp"
         android:padding="20dp"
         android:paddingBottom="10dp"
-        android:text="Q 6. Timebox for a Sprint Planning is"
+        android:text="Q 7. When the student/ward is reading a story he/she find its it difficult to work out the characters’ intentions. | जब छात्र / वार्ड कहानी पढ़ रहे होते हैं, तो उन्हें पात्रों के इरादों को समझने में मुश्किल होती है।"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
