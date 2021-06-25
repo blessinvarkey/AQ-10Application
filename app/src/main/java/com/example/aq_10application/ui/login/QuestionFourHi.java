@@ -8,18 +8,19 @@ import android.view.View;
 
 import com.example.aq_10application.R;
 
-public class QuestionTenHindi extends AppCompatActivity {
+public class QuestionFourHi extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question_ten_hindi);
-        getSupportActionBar().setTitle("AQ-10: Question Ten");
+        setContentView(R.layout.activity_question_four_hin);
+        getSupportActionBar().setTitle("AQ-10: Question Four");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
-
-    public void nextButtonTenHindi(View view) {
-        Intent intent = new Intent(this, Result.class);
+    public void nextButtonFourHindi(View view) {
+        Intent intent = new Intent(this, QuestionFiveHindi.class);
         startActivity(intent);
+
     }
+
 }

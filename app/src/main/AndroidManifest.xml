@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AQ10Application">
-        <activity android:name=".ui.login.About"></activity>
+        <activity android:name=".ui.login.QuestionFourHindi"></activity>
+        <activity android:name=".ui.login.QuestionFiveHindi" />
+        <activity android:name=".ui.login.QuestionSixHindi" />
+        <activity android:name=".ui.login.QuestionSevenHindi" />
+        <activity android:name=".ui.login.QuestionTenHindi" />
+        <activity android:name=".ui.login.QuestionNineHindi" />
+        <activity android:name=".ui.login.QuestionEightHindi" />
+        <activity android:name=".ui.login.QuestionFourHi" />
+        <activity android:name=".ui.login.QuestionThreeHindi" />
+        <activity android:name=".ui.login.About" />
         <activity android:name=".ui.login.QuestionTwoHindi" />
         <activity android:name=".ui.login.QuestionOneHindi" />
         <activity

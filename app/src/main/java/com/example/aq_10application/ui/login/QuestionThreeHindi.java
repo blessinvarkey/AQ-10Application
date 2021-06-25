@@ -1,10 +1,10 @@
 package com.example.aq_10application.ui.login;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.aq_10application.R;
 
@@ -17,11 +17,8 @@ public class QuestionThreeHindi extends AppCompatActivity {
         getSupportActionBar().setTitle("AQ-10: Question Three");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
-
     public void nextButtonThreeHindi(View view) {
-        Intent intent = new Intent(this, QuestionFourHindi.class);
+        Intent intent = new Intent(this, QuestionFourHi.class);
         startActivity(intent);
     }
 }
-
-
