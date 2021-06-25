@@ -22,6 +22,4 @@ public class LoginTwo extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void buttonQOne(View view) {
-    }
 }

@@ -27,4 +27,9 @@ public class LoginActivity extends AppCompatActivity {
         Intent intent = new Intent(this, QuestionOneHindi.class);
         startActivity(intent);
     }
+
+    public void aboutButton(View view) {
+        Intent intent = new Intent(this, About.class);
+        startActivity(intent);
+    }
 }
