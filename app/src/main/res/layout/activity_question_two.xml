@@ -4,8 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login"
     tools:context=".ui.login.QuestionTwo">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="412dp"
+        android:layout_height="75dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/bg_red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="144dp"
+        android:layout_height="36dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.038" />
 
 
     <RadioButton
@@ -14,22 +35,21 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="8dp"
-        android:text="Many times a day दिन में कई बार"
+        android:textSize="12dp"
+        android:text="Many times a day"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/q1" />
 
-
     <RadioButton
-        android:id="@+id/radioButton4"
+        android:id="@+id/radioButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="12dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="4dp"
-        android:text="Less than once a week सप्ताह में एक बार से भी कम"
+        android:text="A few times a day"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
+        app:layout_constraintTop_toBottomOf="@+id/radioButton" />
 
     <RadioButton
         android:id="@+id/radioButton3"
@@ -37,21 +57,21 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="4dp"
-        android:text="A few times a week सप्ताह के कुछ बारं"
+        android:textSize="12dp"
+        android:text="A few times a week"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
 
     <RadioButton
-        android:id="@+id/radioButton2"
+        android:id="@+id/radioButton4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="4dp"
-        android:text="A few times a day दिन में कुछ बारं"
+        android:textSize="12dp"
+        android:text="Less than once a week"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton" />
+        app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
 
     <RadioButton
         android:id="@+id/radioButton5"
@@ -59,21 +79,21 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="8dp"
-        android:text=" Never कभी नही"
+        android:textSize="12dp"
+        android:text=" Never"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
+
 
     <TextView
         android:id="@+id/q1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
-        android:padding="20dp"
-        android:paddingBottom="10dp"
+        android:layout_marginTop="90dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         android:text="
-Q 2. The student usually concentrates more on the whole picture, rather than the small details. /छात्र आमतौर पर छोटे चीज़ें के बजाय पूरी तस्वीर पर अधिक ध्यान देता है।"
-        android:textSize="18sp"
+Q 2. The student usually concentrates more on the whole picture, rather than the small details."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,11 +105,20 @@ Q 2. The student usually concentrates more on the whole picture, rather than the
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="12dp"
         android:onClick="nextButtonTwo"
         android:text="Next"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton5" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

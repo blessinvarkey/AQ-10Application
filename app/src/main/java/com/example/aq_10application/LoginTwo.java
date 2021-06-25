@@ -21,4 +21,7 @@ public class LoginTwo extends AppCompatActivity {
         Intent intent = new Intent(this, QuestionOne.class);
         startActivity(intent);
     }
+
+    public void buttonQOne(View view) {
+    }
 }

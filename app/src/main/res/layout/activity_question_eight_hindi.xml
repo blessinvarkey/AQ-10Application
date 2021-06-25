@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.login.QuestionOne">
+    tools:context=".ui.login.QuestionEightHindi">
 
     <View
         android:id="@+id/view"
@@ -36,7 +37,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:textSize="12dp"
-        android:text="Many times a day"
+        android:text="दिन में कई बार"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/q1" />
 
@@ -44,12 +45,13 @@
         android:id="@+id/radioButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="12dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:text="A few times a day"
+        android:textSize="12dp"
+        android:text="दिन में कुछ बारं"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton" />
+
 
     <RadioButton
         android:id="@+id/radioButton3"
@@ -58,7 +60,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:textSize="12dp"
-        android:text="A few times a week"
+        android:text="सप्ताह के कुछ बारं"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
 
@@ -69,9 +71,10 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:textSize="12dp"
-        android:text="Less than once a week"
+        android:text="सप्ताह में एक बार से भी कम"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
+
 
     <RadioButton
         android:id="@+id/radioButton5"
@@ -80,10 +83,9 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:textSize="12dp"
-        android:text=" Never"
+        android:text="कभी नही"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
-
 
     <TextView
         android:id="@+id/q1"
@@ -92,7 +94,7 @@
         android:layout_marginTop="90dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="Q.1. Student often notices small sounds when others do not."
+        android:text="Q 8. छात्र / वार्ड चीजों की श्रेणियों के बारे में जानकारी एकत्र करना पसंद करते हैं। (जैसे कार के प्रकार, पक्षी के प्रकार, ट्रेन के प्रकार, पौधे के प्रकार आदि)"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -104,7 +106,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:onClick="buttonQOne"
+        android:layout_marginTop="8dp"
+        android:onClick="nextButtonEightHindi"
         android:text="Next"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton5" />
@@ -118,6 +121,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

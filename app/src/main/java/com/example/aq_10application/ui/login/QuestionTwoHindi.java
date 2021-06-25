@@ -8,23 +8,20 @@ import android.view.View;
 
 import com.example.aq_10application.R;
 
-public class QuestionTwo extends AppCompatActivity {
-
-    public void nextButtonTwo(View view){
-        Intent intent = new Intent(this, QuestionThree.class);
-        startActivity(intent);
-    }
-
+public class QuestionTwoHindi extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question_two);
+        setContentView(R.layout.activity_question_two_hindi);
         getSupportActionBar().setTitle( "AQ-10: Question Two");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
+    public void nextButtonTwoHindi(View view) {
+        Intent intent = new Intent(this, QuestionThreeHindi.class);
+        startActivity(intent);
+    }
 }
-
 
 
