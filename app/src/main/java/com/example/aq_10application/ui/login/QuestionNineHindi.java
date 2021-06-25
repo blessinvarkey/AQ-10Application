@@ -19,7 +19,7 @@ public class QuestionNineHindi extends AppCompatActivity {
     }
 
     public void nextButtonNineHindi(View view) {
-        Intent intent = new Intent(this, QuestionTenHin.class);
+        Intent intent = new Intent(this, QuestionTenHindi.class);
         startActivity(intent);
     }
 }

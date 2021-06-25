@@ -13,7 +13,7 @@ public class QuestionFourHi extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question_four_hin);
+        setContentView(R.layout.activity_question_four_hindi);
         getSupportActionBar().setTitle("AQ-10: Question Four");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
